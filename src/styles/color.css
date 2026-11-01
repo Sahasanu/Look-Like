@@ -1,0 +1,184 @@
+
+/* ========================================
+   Maison Belle Salon - Color Design Tokens
+   src/styles/color.css
+   Theme: White & Raspberry Red
+======================================== */
+
+:root {
+  /* Spacing Tokens */
+  --spacing-margin-mobile: 1.25rem;
+  --spacing-margin-tablet: 2rem;
+  --spacing-margin: 4rem;
+  --spacing-gutter: 1.5rem;
+  --spacing-gutter-mobile: 1rem;
+  --spacing-space-xs: 0.375rem;
+  --spacing-space-sm: 0.75rem;
+  --spacing-space-md: 1.25rem;
+  --spacing-space-lg: 2rem;
+  --spacing-space-xl: 3.5rem;
+  --spacing-space-2xl: 5.5rem;
+
+  /* Surface & Base Colors */
+  --color-surface: #ffffff;
+  --color-surface-dim: #ffffff;
+  --color-surface-bright: #ffffff;
+  --color-surface-container-lowest: #ffffff;
+  --color-surface-container-low: #ffffff;
+  --color-surface-container: #ffffff;
+  --color-surface-container-high: #ffffff;
+  --color-surface-container-highest: #ffffff;
+  --color-surface-variant: #ffffff;
+  --color-surface-tint: #D6204E;
+
+  /* Text & Contrast Content Colors */
+  --color-on-surface: #D6204E;
+  --color-on-surface-variant: #000000;
+  --color-inverse-surface: #2A1720;
+  --color-inverse-on-surface: #ffffff;
+  --color-outline: #B85A72;
+  --color-outline-variant: #F0CDD7;
+
+  /* Primary Palette */
+  --color-primary: #D6204E;
+  --color-on-primary: #ffffff;
+  --color-primary-container: #FCE5EB;
+  --color-on-primary-container: #8F1232;
+  --color-inverse-primary: #FFB3C5;
+  --color-primary-fixed: #FCE5EB;
+  --color-primary-fixed-dim: #FFB3C5;
+  --color-on-primary-fixed: #4D0A1D;
+  --color-on-primary-fixed-variant: #8F1232;
+
+  /* Secondary Palette */
+  --color-secondary: #8F2946;
+  --color-on-secondary: #ffffff;
+  --color-secondary-container: #FCE5EB;
+  --color-on-secondary-container: #702039;
+  --color-secondary-fixed: #FCE5EB;
+  --color-secondary-fixed-dim: #F0B7C6;
+  --color-on-secondary-fixed: #4D0A1D;
+  --color-on-secondary-fixed-variant: #702039;
+
+  /* Tertiary Palette */
+  --color-tertiary: #A64D65;
+  --color-on-tertiary: #ffffff;
+  --color-tertiary-container: #F8E1E8;
+  --color-on-tertiary-container: #702039;
+  --color-tertiary-fixed: #F8E1E8;
+  --color-tertiary-fixed-dim: #EAB7C6;
+  --color-on-tertiary-fixed: #4D0A1D;
+  --color-on-tertiary-fixed-variant: #702039;
+
+  /* Error Feedback Palette */
+  --color-error: #BA1A1A;
+  --color-on-error: #ffffff;
+  --color-error-container: #FFEBE9;
+  --color-on-error-container: #93000A;
+
+  /* Signature Maison Belle Brand Colors */
+  --color-ivory-cream: #ffffff;
+  --color-porcelain-soft: #ffffff;
+  --color-blush-mist: #FFF3F6;
+  --color-terracotta-rose: #D6204E;
+  --color-rose-gold: #B85A72;
+  --color-deep-espresso: #D6204E;
+  --color-noir-charcoal: #D6204E;
+  --color-border-warm: #F0CDD7;
+  --color-whatsapp-green: #25D366;
+}
+
+/* ========================================
+   Tailwind v4 Theme Design Tokens Mapping
+======================================== */
+
+@theme {
+  /* Breakpoints */
+  --breakpoint-xs: 30rem;
+
+  /* Fonts */
+  --font-serif: 'Playfair Display', Georgia, serif;
+  --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  --font-script: 'Alex Brush', cursive;
+
+  /* Spacing Tokens */
+  --spacing-margin-mobile: 1.25rem;
+  --spacing-margin-tablet: 2rem;
+  --spacing-margin: 4rem;
+  --spacing-gutter: 1.5rem;
+  --spacing-gutter-mobile: 1rem;
+  --spacing-space-xs: 0.375rem;
+  --spacing-space-sm: 0.75rem;
+  --spacing-space-md: 1.25rem;
+  --spacing-space-lg: 2rem;
+  --spacing-space-xl: 3.5rem;
+  --spacing-space-2xl: 5.5rem;
+
+  /* Surface & Base Colors */
+  --color-surface: #ffffff;
+  --color-surface-dim: #ffffff;
+  --color-surface-bright: #ffffff;
+  --color-surface-container-lowest: #ffffff;
+  --color-surface-container-low: #ffffff;
+  --color-surface-container: #ffffff;
+  --color-surface-container-high: #ffffff;
+  --color-surface-container-highest: #ffffff;
+  --color-surface-variant: #ffffff;
+  --color-surface-tint: #D6204E;
+
+  /* Text & Contrast Content Colors */
+  --color-on-surface: #D6204E;
+  --color-on-surface-variant: #8F2946;
+  --color-inverse-surface: #2A1720;
+  --color-inverse-on-surface: #ffffff;
+  --color-outline: #B85A72;
+  --color-outline-variant: #F0CDD7;
+
+  /* Primary Palette */
+  --color-primary: #D6204E;
+  --color-on-primary: #ffffff;
+  --color-primary-container: #FCE5EB;
+  --color-on-primary-container: #8F1232;
+  --color-inverse-primary: #FFB3C5;
+  --color-primary-fixed: #FCE5EB;
+  --color-primary-fixed-dim: #FFB3C5;
+  --color-on-primary-fixed: #4D0A1D;
+  --color-on-primary-fixed-variant: #8F1232;
+
+  /* Secondary Palette */
+  --color-secondary: #8F2946;
+  --color-on-secondary: #ffffff;
+  --color-secondary-container: #FCE5EB;
+  --color-on-secondary-container: #702039;
+  --color-secondary-fixed: #FCE5EB;
+  --color-secondary-fixed-dim: #F0B7C6;
+  --color-on-secondary-fixed: #4D0A1D;
+  --color-on-secondary-fixed-variant: #702039;
+
+  /* Tertiary Palette */
+  --color-tertiary: #A64D65;
+  --color-on-tertiary: #ffffff;
+  --color-tertiary-container: #F8E1E8;
+  --color-on-tertiary-container: #702039;
+  --color-tertiary-fixed: #F8E1E8;
+  --color-tertiary-fixed-dim: #EAB7C6;
+  --color-on-tertiary-fixed: #4D0A1D;
+  --color-on-tertiary-fixed-variant: #702039;
+
+  /* Error Feedback Palette */
+  --color-error: #BA1A1A;
+  --color-on-error: #ffffff;
+  --color-error-container: #FFEBE9;
+  --color-on-error-container: #93000A;
+
+  /* Signature Maison Belle Brand Colors */
+  --color-ivory-cream: #ffffff;
+  --color-porcelain-soft: #ffffff;
+  --color-blush-mist: #FFF3F6;
+  --color-terracotta-rose: #D6204E;
+  --color-rose-gold: #B85A72;
+  --color-deep-espresso: #D6204E;
+  --color-noir-charcoal: #D6204E;
+  --color-border-warm: #F0CDD7;
+  --color-whatsapp-green: #25D366;
+}
